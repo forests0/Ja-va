@@ -1,0 +1,9 @@
+create table tbl_score(
+    no number(4) not null,
+    name varchar(20),
+    kor number(3),
+    eng number(3),
+    math number(3),
+    java number(3),
+    primary key(no)
+);
